@@ -1,11 +1,24 @@
-﻿namespace TreesLibrary
+﻿
+namespace TreesLibrary
 {
     internal class Program
     {
         static void Main(string[] args)
         {
 
-            BinaryTree<string> tree = GetTree();
+            /*Sudo Code
+                return type = BinarySerachTree List, parameters=(data)
+                    check to see if search value is equal to,less, or greater than root node data
+                while(root!= null)
+                    compare value to root.data
+                    if equal, return root (0)
+                    if less, node = root.left
+                    if greater, node = root.right
+            */
+            
+            
+
+            /*BinaryTree<string> tree = GetTree();
             BinaryTreeNode<string>? node = tree.Root;
             while (node != null)
             {
@@ -24,7 +37,7 @@
                     Console.WriteLine(node.Data);
                     node = null;
                 }
-            }
+            }*/
 
             BinaryTree<string> GetTree()
             {
